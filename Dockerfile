@@ -3,6 +3,11 @@ FROM ubuntu:20.04
 
 RUN apt-get update
 
+# tzdata
+ENV DEBIAN_FRONTEND noninteractive
+RUN ln -fs /usr/share/zoneinfo/Europe/Stockholm /etc/localtime
+RUN apt-get install -y --no-install-recommends tzdata
+
 # Android
 RUN apt-get install -y \
     bc \
