@@ -42,6 +42,7 @@ RUN apt-get install -y \
     m4 \
     make \
     openjdk-8-jdk \
+    python \
     rsync \
     squashfs-tools \
     syslinux-utils \
