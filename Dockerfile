@@ -1,3 +1,5 @@
+LABEL org.opencontainers.image.source https://github.com/ix5/img-dev-base
+
 # https://gitlab.simonmicro.de/android/lineage/lineage-pdx201/-/blob/master/Dockerfile
 FROM ubuntu:20.04
 
